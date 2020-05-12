@@ -40,9 +40,11 @@
         app:layout_constraintTop_toBottomOf="@+id/slide_page_ic"
         android:layout_marginTop="50dp"
         android:text="HEADING"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/multicolore"
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/slide_page_text"
@@ -55,8 +57,9 @@
         app:layout_constraintTop_toBottomOf="@+id/slide_page_heading"
         android:layout_marginTop="20dp"
         android:text="TEXT"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@color/colorText"
+        android:fontFamily="@font/neon"
         android:textAlignment="center"/>
 
     <Button
